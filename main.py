@@ -9,8 +9,8 @@ chemistry = float(input("Enter your chemistry mark :"))
 biology = float(input("Enter your biology mark :"))
 
 
-obtained_marks = math + science + islamiat + chemistry + biology
-
+obtained_marks = math + science + islamiat + chemistry + biology  #Addition of all inputs
+# Displaying the obtained marks
 print ("The total Marks in all subjects obtained by you:" , obtained_marks)
 # calculate Percentage
 percentage = (obtained_marks / total_marks) * 100  # by using the formula
